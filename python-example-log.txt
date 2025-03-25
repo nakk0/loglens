@@ -1,0 +1,61 @@
+[2023-11-01 08:12:34] INFO - UserService: User 'johndoe' logged in successfully
+[2023-11-01 08:15:22] INFO - PaymentService: Payment processed for order #12345
+[2023-11-01 08:17:45] WARNING - DatabaseService: Slow query detected (duration: 2.5s): SELECT * FROM orders WHERE customer_id = 789
+[2023-11-01 08:22:13] INFO - NotificationService: Email notification sent to user 'johndoe@example.com'
+[2023-11-01 08:25:47] ERROR - PaymentService: Failed to process payment for order #12346: Invalid credit card number
+[2023-11-01 08:30:11] INFO - UserService: User 'janedoe' logged in successfully
+[2023-11-01 08:32:54] INFO - CartService: Item added to cart for user 'janedoe'
+[2023-11-01 08:36:27] INFO - CartService: Checkout initiated for user 'janedoe'
+[2023-11-01 08:40:19] WARNING - InventoryService: Low stock alert for product SKU-7890 (remaining: 5)
+[2023-11-01 08:45:33] INFO - PaymentService: Payment processed for order #12347
+[2023-11-01 08:50:02] INFO - ShippingService: Shipping label generated for order #12345
+[2023-11-01 08:55:18] ERROR - ShippingService: Invalid address for order #12347: Missing postal code
+[2023-11-01 09:00:45] INFO - UserService: User 'bobsmith' logged in successfully
+[2023-11-01 09:05:29] CRITICAL - SecurityService: Multiple failed login attempts detected for account 'admin'
+[2023-11-01 09:10:17] INFO - SecurityService: IP blocked due to suspicious activity: 192.168.1.100
+[2023-11-01 09:15:42] INFO - CartService: Item added to cart for user 'bobsmith'
+[2023-11-01 09:20:33] INFO - CartService: Item added to cart for user 'bobsmith'
+[2023-11-01 09:25:11] INFO - CartService: Checkout initiated for user 'bobsmith'
+[2023-11-01 09:30:29] INFO - PaymentService: Payment processed for order #12348
+[2023-11-01 09:35:47] WARNING - InventoryService: Product SKU-4567 out of stock
+[2023-11-01 09:40:14] INFO - NotificationService: Email notification sent to user 'bobsmith@example.com'
+[2023-11-01 09:45:38] INFO - UserService: User 'alicegreen' logged in successfully
+[2023-11-01 09:50:22] ERROR - DatabaseService: Database connection timeout after 30s
+[2023-11-01 09:55:49] ERROR - CartService: Failed to retrieve cart for user 'alicegreen': Database error
+[2023-11-01 10:00:17] INFO - SystemService: Automatic backup started
+[2023-11-01 10:05:33] INFO - CartService: Item added to cart for user 'johndoe'
+[2023-11-01 10:10:12] INFO - CartService: Checkout initiated for user 'johndoe'
+[2023-11-01 10:15:45] INFO - PaymentService: Payment processed for order #12349
+[2023-11-01 10:20:28] WARNING - PaymentService: Payment gateway response slow (2.8s)
+[2023-11-01 10:25:39] INFO - ShippingService: Shipping label generated for order #12348
+[2023-11-01 10:30:14] INFO - NotificationService: Email notification sent to user 'johndoe@example.com'
+[2023-11-01 10:35:27] INFO - UserService: User password changed for 'alicegreen'
+[2023-11-01 10:40:58] INFO - UserService: User 'bobsmith' logged out
+[2023-11-01 10:45:32] INFO - SystemService: Automatic backup completed successfully
+[2023-11-01 10:50:19] ERROR - InventoryService: Failed to update inventory for SKU-7890: Concurrent modification
+[2023-11-01 10:55:43] INFO - UserService: User 'johndoe' logged out
+[2023-11-01 11:00:11] INFO - UserService: User 'janedoe' logged out
+[2023-11-01 11:05:35] CRITICAL - SecurityService: Potential security breach detected: Unusual access pattern from IP 203.0.113.42
+[2023-11-01 11:10:47] INFO - SecurityService: Security scan initiated
+[2023-11-01 11:15:22] INFO - SecurityService: Security scan completed: No threats detected
+[2023-11-01 11:20:49] INFO - UserService: New user registration: 'sarahwilson'
+[2023-11-01 11:25:14] INFO - UserService: User 'sarahwilson' logged in successfully
+[2023-11-01 11:30:38] INFO - CartService: Item added to cart for user 'sarahwilson'
+[2023-11-01 11:35:59] WARNING - PerformanceService: High CPU usage detected (92%)
+[2023-11-01 11:40:27] INFO - CartService: Checkout initiated for user 'sarahwilson'
+[2023-11-01 11:45:13] ERROR - PaymentService: Failed to process payment for order #12350: Gateway timeout
+[2023-11-01 11:50:46] INFO - PaymentService: Retry payment successful for order #12350
+[2023-11-01 11:55:31] INFO - ShippingService: Shipping label generated for order #12349
+[2023-11-01 12:00:18] INFO - SystemService: Scheduled maintenance started
+[2023-11-01 12:05:42] INFO - SystemService: Database optimization in progress
+[2023-11-01 12:10:29] INFO - SystemService: Cache cleared
+[2023-11-01 12:15:53] INFO - SystemService: Scheduled maintenance completed
+[2023-11-01 12:20:17] INFO - UserService: User 'davidbrown' logged in successfully
+[2023-11-01 12:25:39] INFO - CartService: Item added to cart for user 'davidbrown'
+[2023-11-01 12:30:22] INFO - CartService: Item added to cart for user 'davidbrown'
+[2023-11-01 12:35:48] INFO - CartService: Item removed from cart for user 'davidbrown'
+[2023-11-01 12:40:13] INFO - CartService: Checkout initiated for user 'davidbrown'
+[2023-11-01 12:45:36] INFO - PaymentService: Payment processed for order #12351
+[2023-11-01 12:50:19] INFO - ShippingService: Shipping label generated for order #12350
+[2023-11-01 12:55:47] INFO - NotificationService: Email notification sent to user 'davidbrown@example.com'
+[2023-11-01 13:00:21] WARNING - InventoryService: Low stock alert for product SKU-1234 (remaining: 3)

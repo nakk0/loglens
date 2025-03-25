@@ -1,0 +1,15 @@
+# Python LogLens Dependencies
+
+# Standard Library Dependencies
+# These are included with Python and don't need installation:
+# - argparse
+# - re
+# - datetime
+# - collections
+# - csv
+# - io
+# - sys
+# - os
+
+# No external dependencies are required for this application
+# All functionality is implemented using the Python Standard Library
